@@ -1,0 +1,40 @@
+.inputhandler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.inputhandler input {
+    width: 50px;
+    height: 40px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.2s ease-in-out;
+}
+
+.inputhandler input:focus {
+    border-color: #007bff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    background: #28a745;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    opacity: 0.8;
+}
